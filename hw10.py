@@ -30,11 +30,9 @@ class Guest(User):
         return f"{self.name} is a Guest user."
 
 
-# Creating objects
 admin_user = Admin("rohit", 2019)
 guest_user = Guest("kohli", 2022)
 
-# Printing details
 print(admin_user.get_role())
 print(admin_user.account_age())
 print(admin_user)
